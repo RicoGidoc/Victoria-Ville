@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>LIORA HOUSING NAIC</title>
+    <!-- <link rel="stylesheet" href="./css/style.css"> -->
+    <a href="index.html" class="home-float">🏠 Back to home page</a>
+</head>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        background: #f5f5f5;
+    }
+
+    .details-container {
+        max-width: 800px;
+        margin: auto;
+        background: #fff;
+        padding: 20px;
+    }
+
+    /* Main Image */
+    .main-img {
+        width: 100%;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+
+    /* SLIDING THUMBNAILS (AUTO) */
+    .liora-gallery {
+        display: flex;
+        gap: 10px;
+        overflow: hidden;
+        position: relative;
+        width: 100%;
+    }
+
+    .slider-track {
+        display: flex;
+        gap: 10px;
+        width: max-content;
+        animation: slide 18s linear infinite;
+    }
+
+    .img-box {
+        flex: 0 0 auto;
+    }
+
+    .img-box img {
+        height: 80px;
+        width: 110px;
+        object-fit: cover;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: 0.3s ease;
+        border: 2px solid transparent;
+    }
+
+    .img-box img:hover {
+        transform: scale(1.08);
+        border: 2px solid #1e3a8a;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    /* AUTO SLIDE ANIMATION */
+    @keyframes slide {
+        0% {
+            transform: translateX(0);
+        }
+
+        100% {
+            transform: translateX(-50%);
+        }
+    }
+
+    /* Pause on hover */
+    .liora-gallery:hover .slider-track {
+        animation-play-state: paused;
+    }
+
+    h1 {
+        margin-top: 10px;
+    }
+
+    ul {
+        padding-left: 18px;
+    }
+
+    .home-float {
+        display: inline-block;
+        margin: 10px;
+        text-decoration: none;
+        background: green;
+        color: #fff;
+        padding: 8px 12px;
+        border-radius: 6px;
+    }
+</style>
+
+<body>
+
+    <div class="details-container">
+        <h1>🏬 Convenient Access to Nearby Commercial Establishments from Victoria Ville</h1>
+        <img src="house/commercials.png" class="main-img">
+
+        <h1>🏡 VICTORIA VILLE SUBDIVISION</h1>
+        <h3>📍 Location:</h3>        
+        <p>📍 Panapaan III, Bacoor, Cavite</p>
+        
+        <p>🚗 PRIME LOCATION ACCESS</p>
+        <p>Strategically located near major highways for fast travel to Metro Manila & Cavite areas:</p>
+        
+        <p>🛣️ NEARBY MAJOR ROADS & EXPRESSWAYS</p>
+        
+        <p>🚧 CAVITEX (Coastal Road / Manila–Cavite Expressway)</p>
+        <p>➡️ Fast access to Manila, Pasay, MOA, PITX</p>
+        <p>➡️ Major expressway connecting Bacoor to Metro Manila</p>
+        
+        <p>🚧 Aguinaldo Highway</p>
+        <p>➡️ Main road of Cavite (Bacoor → Imus → Dasmariñas → Tagaytay)</p>
+        <p>➡️ Surrounded by malls, hospitals, schools & business centers</p>
+        <p>Emilio Aguinaldo Highway Cavite</p>
+        
+        <p>🚧 Coastal Road Extension / Zapote Area Access</p>
+        <p>➡️ Direct route to Las Piñas & Parañaque</p>
+        <p>➡️ Connects easily to CAVITEX entry points</p>
+        
+        <p>🚧 St. Dominic Area Access (Bacoor)</p>
+        <p>➡️ Near schools, hospitals, churches, commercial centers</p>
+        <p>➡️ Easy connection to Aguinaldo Highway & Molino Blvd</p>
+        
+        <p>🏙️ WHY THIS LOCATION IS STRATEGIC</p>
+        <p>✔ Near major highways & expressways</p>
+        <p>✔ Fast travel to Manila & Cavite cities</p>
+        <p>✔ Highly commercialized area</p>
+        <p>✔ Perfect for residential & investment</p>
+
+        <h3>💰 Price:</h3>
+        <p>Pls contact us...</p>
+
+        <h3> fb page: 📞 Contact:</h3>
+        <p>RicoHomes.ph | 09391209602</p>
+
+    </div>
+
+</body>
+
+</html>

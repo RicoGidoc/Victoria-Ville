@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Victoria Ville</title>
+    <!-- <link rel="stylesheet" href="./css/style.css"> -->
+    <a href="index.html" class="home-float">🏠Back to home page</a>
+</head>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        background: #f5f5f5;
+    }
+
+    .details-container {
+        max-width: 800px;
+        margin: auto;
+        background: #fff;
+        padding: 20px;
+    }
+
+    /* Main Image */
+    .main-img {
+        width: 100%;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+
+    /* SLIDING THUMBNAILS (AUTO) */
+    .liora-gallery {
+        display: flex;
+        gap: 10px;
+        overflow: hidden;
+        position: relative;
+        width: 100%;
+    }
+
+    .slider-track {
+        display: flex;
+        gap: 10px;
+        width: max-content;
+        animation: slide 18s linear infinite;
+    }
+
+    .img-box {
+        flex: 0 0 auto;
+    }
+
+    .img-box img {
+        height: 80px;
+        width: 110px;
+        object-fit: cover;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: 0.3s ease;
+        border: 2px solid transparent;
+    }
+
+    .img-box img:hover {
+        transform: scale(1.08);
+        border: 2px solid #1e3a8a;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    /* AUTO SLIDE ANIMATION */
+    @keyframes slide {
+        0% {
+            transform: translateX(0);
+        }
+
+        100% {
+            transform: translateX(-50%);
+        }
+    }
+
+    /* Pause on hover */
+    .liora-gallery:hover .slider-track {
+        animation-play-state: paused;
+    }
+
+    h1 {
+        margin-top: 10px;
+    }
+
+    ul {
+        padding-left: 18px;
+    }
+
+    .home-float {
+        display: inline-block;
+        margin: 10px;
+        text-decoration: none;
+        background: green;
+        color: #fff;
+        padding: 8px 12px;
+        border-radius: 6px;
+    }
+</style>
+<body>
+
+    <div class="details-container">
+        <h1>Victorial Ville, Panapaan III, Cavite City 🏡</h1>
+
+        <img src="victoria/VC1.png" class="main-img">
+
+        <div class="liora-gallery">
+            <div class="img-box"><img src="victoria/vc1.png"></div>
+            <div class="img-box"><img src="victoria/vc10.png"></div>
+            <div class="img-box"><img src="victoria/vc11.png"></div>
+            <div class="img-box"><img src="victoria/vc12.png"></div>
+            <div class="img-box"><img src="victoria/vc13.png"></div>
+            <div class="img-box"><img src="victoria/vc14.png"></div>
+            <div class="img-box"><img src="victoria/vc15.png"></div>
+            <div class="img-box"><img src="victoria/vc16.png"></div>
+            <div class="img-box"><img src="victoria/vc17.png"></div>
+            <div class="img-box"><img src="victoria/vc18.png"></div>
+            <div class="img-box"><img src="victoria/vc19.png"></div>
+            <div class="img-box"><img src="victoria/vc20.png"></div>
+            <div class="img-box"><img src="victoria/vc2.png"></div>
+            <div class="img-box"><img src="victoria/vc4.png"></div>
+            <div class="img-box"><img src="victoria/vc5.png"></div>
+        </div>
+
+        <h3>📍 Location:</h3>
+        <p>Panapaan III, Bacoor, Cavite City</p>
+
+        <h3>📐 Property Details:</h3>
+        <p>📍 Victoria Ville Subdivision, Panapaan III, Bacoor, Cavite</p>
+        
+        <p>A modern and well-designed townhouse unit offering comfort, accessibility, and affordable home ownership in a
+            prime Cavite location.</p>
+        
+        <p>🏠 UNIT FEATURES</p>
+        <p>✔ Spacious living and dining area</p>
+        <p>✔ Modern kitchen layout</p>
+        <p>✔ 2-storey townhouse design</p>
+        <p>✔ Comfortable bedrooms for family living</p>
+        <p>✔ Quality-built structure for long-term investment</p>
+        
+        <p>📍 LOCATION ADVANTAGE</p>
+        <p>Easy access to CAVITEX, Aguinaldo Highway, Molino Blvd, and nearby commercial establishments.</p>
+        
+        <p>🚗 NEARBY ACCESS</p>
+        <p>✔ CAVITEX (Manila–Cavite Expressway)</p>
+        <p>✔ Aguinaldo Highway</p>
+        <p>✔ Coastal Road / Zapote Area</p>
+        <p>✔ Schools, hospitals, malls, and markets</p>
+        
+        <p>🏙️ WHY CHOOSE MICHELLE MODEL UNIT</p>
+        <p>✔ Affordable townhouse investment</p>
+        <p>✔ Near Metro Manila</p>
+        <p>✔ Highly accessible location</p>
+        <p>✔ Perfect for family living or rental income</p>
+
+        <h3>📞 Contact Us:</h3>
+        <p>🙎Rico Gojar Gidoc |☎️ Smart/WhatsApp 09391209602 Globe 0917 6979 508</p>
+
+    </div>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
