@@ -3,7 +3,7 @@
 
   <!-- Main Homepage -->
   <url>
-    <loc>https://ricogidoc.github.io/cavite-house-and-lot/</loc>
+    <loc>https://ricogidoc.github.io/Victoria-Ville/</loc>
     <lastmod>2026-05-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -11,7 +11,9 @@
 
   <!-- About Page -->
   <url>
-    <loc>https://ricogidoc.github.io/cavite-house-and-lot/about.html</loc>
+    <loc>https://ricogidoc.github.io/Victoria-Ville/</loc>
+    
+    
     <lastmod>2026-05-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
